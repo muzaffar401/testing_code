@@ -1,0 +1,202 @@
+[2025-07-02 16:36:59] [INFO] Starting to process CSV file for Diamond...
+[2025-07-02 16:36:59] [INFO] Processing SKU: dawn paratha plain paratha 5 pcs for Diamond
+[2025-07-02 16:36:59] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/dawn-paratha-5pcs-plain.html
+[2025-07-02 16:37:20] [INFO] Starting to process CSV file for Diamond...
+[2025-07-02 16:37:20] [INFO] Processing SKU: dawn paratha plain paratha 5 pcs for Diamond
+[2025-07-02 16:37:20] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/dawn-paratha-5pcs-plain.html
+[2025-07-02 16:47:14] [INFO] Starting to process CSV file for Diamond...
+[2025-07-02 16:47:14] [INFO] Processing SKU: dawn paratha plain paratha 5 pcs for Diamond
+[2025-07-02 16:47:14] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/dawn-paratha-5pcs-plain.html
+[2025-07-02 16:47:15] [DEBUG] Testing element with text: 255
+[2025-07-02 16:47:15] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 255
+[2025-07-02 16:47:15] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 16:47:15] [INFO] ✅ Found price: 255.00
+[2025-07-02 16:47:15] [INFO] ✅ Diamond - dawn paratha plain paratha 5 pcs: 255.00
+[2025-07-02 16:47:15] [INFO] Processing SKU: Dawn Whole wheat paratha 5 pcs for Diamond
+[2025-07-02 16:47:15] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/dawn-paratha-whole-wheat-5pcs-400g.html
+[2025-07-02 16:47:16] [DEBUG] Testing element with text: 289
+[2025-07-02 16:47:16] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 289
+[2025-07-02 16:47:16] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 16:47:16] [INFO] ✅ Found price: 289.00
+[2025-07-02 16:47:16] [INFO] ✅ Diamond - Dawn Whole wheat paratha 5 pcs: 289.00
+[2025-07-02 16:47:21] [INFO] Processing SKU: Knorr Noodles for Diamond
+[2025-07-02 16:47:21] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/knorr-noodles-chatt-patta-4s-family-pack.html
+[2025-07-02 16:47:22] [DEBUG] Testing element with text: 200
+[2025-07-02 16:47:22] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 200
+[2025-07-02 16:47:22] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 16:47:22] [INFO] ✅ Found price: 200.00
+[2025-07-02 16:47:22] [INFO] ✅ Diamond - Knorr Noodles: 200.00
+[2025-07-02 16:47:27] [INFO] Processing SKU: Tapal Danedar 900gm for Diamond
+[2025-07-02 16:47:27] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/tapal-danedar-tea-900gm.html
+[2025-07-02 16:47:28] [DEBUG] Testing element with text: 1680
+[2025-07-02 16:47:28] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 1680
+[2025-07-02 16:47:28] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 16:47:28] [INFO] ✅ Found price: 1680.00
+[2025-07-02 16:47:28] [INFO] ✅ Diamond - Tapal Danedar 900gm: 1680.00
+[2025-07-02 16:47:33] [INFO] Processing SKU: Sugar 1kg for Diamond
+[2025-07-02 16:47:33] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/sugar-1kg.html
+[2025-07-02 16:47:34] [DEBUG] Testing element with text: 180
+[2025-07-02 16:47:34] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 180
+[2025-07-02 16:47:34] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 16:47:34] [INFO] ✅ Found price: 180.00
+[2025-07-02 16:47:34] [INFO] ✅ Diamond - Sugar 1kg: 180.00
+[2025-07-02 16:47:34] [INFO] ✅ Completed processing Diamond data!
+[2025-07-02 16:47:34] [INFO] Total products processed: 5
+[2025-07-02 16:47:34] [INFO] Creating MySQL table...
+[2025-07-02 16:47:34] [INFO] ✅ MySQL table created successfully!
+[2025-07-02 16:47:34] [INFO] Saving Diamond data to MySQL...
+[2025-07-02 16:47:34] [INFO] Updated Diamond data for SKU: dawn paratha plain paratha 5 pcs
+[2025-07-02 16:47:34] [INFO] Updated Diamond data for SKU: Dawn Whole wheat paratha 5 pcs
+[2025-07-02 16:47:34] [INFO] Updated Diamond data for SKU: Knorr Noodles
+[2025-07-02 16:47:34] [INFO] Updated Diamond data for SKU: Tapal Danedar 900gm
+[2025-07-02 16:47:34] [INFO] Updated Diamond data for SKU: Sugar 1kg
+[2025-07-02 16:47:34] [INFO] ✅ Saved 5 Diamond products to MySQL!
+[2025-07-02 16:47:34] [INFO] Saving Diamond data to CSV: diamond.csv
+[2025-07-02 16:47:34] [INFO] ✅ Saved 5 Diamond products to CSV!
+[2025-07-02 16:50:08] [INFO] Starting to process CSV file for Diamond...
+[2025-07-02 16:50:08] [INFO] Processing SKU: dawn paratha plain paratha 5 pcs for Diamond
+[2025-07-02 16:50:08] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/dawn-paratha-5pcs-plain.html
+[2025-07-02 16:50:08] [DEBUG] Testing element with text: 255
+[2025-07-02 16:50:08] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 255
+[2025-07-02 16:50:08] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 16:50:08] [INFO] ✅ Found price: 255.00
+[2025-07-02 16:50:08] [INFO] ✅ Diamond - dawn paratha plain paratha 5 pcs: 255.00
+[2025-07-02 16:50:08] [INFO] Processing SKU: Dawn Whole wheat paratha 5 pcs for Diamond
+[2025-07-02 16:50:08] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/dawn-paratha-whole-wheat-5pcs-400g.html
+[2025-07-02 16:50:09] [DEBUG] Testing element with text: 289
+[2025-07-02 16:50:09] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 289
+[2025-07-02 16:50:09] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 16:50:09] [INFO] ✅ Found price: 289.00
+[2025-07-02 16:50:09] [INFO] ✅ Diamond - Dawn Whole wheat paratha 5 pcs: 289.00
+[2025-07-02 16:50:14] [INFO] Processing SKU: Knorr Noodles for Diamond
+[2025-07-02 16:50:14] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/knorr-noodles-chatt-patta-4s-family-pack.html
+[2025-07-02 16:50:14] [DEBUG] Testing element with text: 200
+[2025-07-02 16:50:14] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 200
+[2025-07-02 16:50:14] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 16:50:14] [INFO] ✅ Found price: 200.00
+[2025-07-02 16:50:14] [INFO] ✅ Diamond - Knorr Noodles: 200.00
+[2025-07-02 16:50:19] [INFO] Processing SKU: Tapal Danedar 900gm for Diamond
+[2025-07-02 16:50:19] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/tapal-danedar-tea-900gm.html
+[2025-07-02 16:50:19] [DEBUG] Testing element with text: 1680
+[2025-07-02 16:50:19] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 1680
+[2025-07-02 16:50:19] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 16:50:19] [INFO] ✅ Found price: 1680.00
+[2025-07-02 16:50:19] [INFO] ✅ Diamond - Tapal Danedar 900gm: 1680.00
+[2025-07-02 16:50:24] [INFO] Processing SKU: Sugar 1kg for Diamond
+[2025-07-02 16:50:24] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/sugar-1kg.html
+[2025-07-02 16:50:24] [DEBUG] Testing element with text: 180
+[2025-07-02 16:50:24] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 180
+[2025-07-02 16:50:24] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 16:50:24] [INFO] ✅ Found price: 180.00
+[2025-07-02 16:50:24] [INFO] ✅ Diamond - Sugar 1kg: 180.00
+[2025-07-02 16:50:24] [INFO] ✅ Completed processing Diamond data!
+[2025-07-02 16:50:24] [INFO] Total products processed: 5
+[2025-07-02 16:50:24] [INFO] Creating MySQL table...
+[2025-07-02 16:50:25] [INFO] ✅ MySQL table created successfully!
+[2025-07-02 16:50:25] [INFO] Saving Diamond data to MySQL...
+[2025-07-02 16:50:25] [INFO] Inserted new row for SKU: dawn paratha plain paratha 5 pcs
+[2025-07-02 16:50:25] [INFO] Inserted new row for SKU: Dawn Whole wheat paratha 5 pcs
+[2025-07-02 16:50:25] [INFO] Inserted new row for SKU: Knorr Noodles
+[2025-07-02 16:50:25] [INFO] Inserted new row for SKU: Tapal Danedar 900gm
+[2025-07-02 16:50:25] [INFO] Inserted new row for SKU: Sugar 1kg
+[2025-07-02 16:50:25] [INFO] ✅ Saved 5 Diamond products to MySQL!
+[2025-07-02 16:50:25] [INFO] Saving Diamond data to CSV: diamond.csv
+[2025-07-02 16:50:25] [INFO] ✅ Saved 5 Diamond products to CSV!
+[2025-07-02 16:58:36] [INFO] Starting to process CSV file for Diamond...
+[2025-07-02 16:58:36] [INFO] Processing SKU: dawn paratha plain paratha 5 pcs for Diamond
+[2025-07-02 16:58:36] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/dawn-paratha-5pcs-plain.html
+[2025-07-02 16:58:37] [DEBUG] Testing element with text: 255
+[2025-07-02 16:58:37] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 255
+[2025-07-02 16:58:37] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 16:58:37] [INFO] ✅ Found price: 255.00
+[2025-07-02 16:58:37] [INFO] ✅ Diamond - dawn paratha plain paratha 5 pcs: 255.00
+[2025-07-02 16:58:37] [INFO] Processing SKU: Dawn Whole wheat paratha 5 pcs for Diamond
+[2025-07-02 16:58:37] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/dawn-paratha-whole-wheat-5pcs-400g.html
+[2025-07-02 16:58:37] [DEBUG] Testing element with text: 289
+[2025-07-02 16:58:37] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 289
+[2025-07-02 16:58:37] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 16:58:37] [INFO] ✅ Found price: 289.00
+[2025-07-02 16:58:37] [INFO] ✅ Diamond - Dawn Whole wheat paratha 5 pcs: 289.00
+[2025-07-02 16:58:42] [INFO] Processing SKU: Knorr Noodles for Diamond
+[2025-07-02 16:58:42] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/knorr-noodles-chatt-patta-4s-family-pack.html
+[2025-07-02 16:58:42] [DEBUG] Testing element with text: 200
+[2025-07-02 16:58:42] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 200
+[2025-07-02 16:58:42] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 16:58:42] [INFO] ✅ Found price: 200.00
+[2025-07-02 16:58:42] [INFO] ✅ Diamond - Knorr Noodles: 200.00
+[2025-07-02 16:58:47] [INFO] Processing SKU: Tapal Danedar 900gm for Diamond
+[2025-07-02 16:58:47] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/tapal-danedar-tea-900gm.html
+[2025-07-02 16:58:47] [DEBUG] Testing element with text: 1680
+[2025-07-02 16:58:47] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 1680
+[2025-07-02 16:58:47] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 16:58:47] [INFO] ✅ Found price: 1680.00
+[2025-07-02 16:58:47] [INFO] ✅ Diamond - Tapal Danedar 900gm: 1680.00
+[2025-07-02 16:58:52] [INFO] Processing SKU: Sugar 1kg for Diamond
+[2025-07-02 16:58:52] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/sugar-1kg.html
+[2025-07-02 16:58:53] [DEBUG] Testing element with text: 180
+[2025-07-02 16:58:53] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 180
+[2025-07-02 16:58:53] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 16:58:53] [INFO] ✅ Found price: 180.00
+[2025-07-02 16:58:53] [INFO] ✅ Diamond - Sugar 1kg: 180.00
+[2025-07-02 16:58:53] [INFO] ✅ Completed processing Diamond data!
+[2025-07-02 16:58:53] [INFO] Total products processed: 5
+[2025-07-02 16:58:53] [INFO] Creating MySQL table...
+[2025-07-02 16:58:53] [INFO] ✅ MySQL table created successfully!
+[2025-07-02 16:58:53] [INFO] Saving Diamond data to MySQL...
+[2025-07-02 16:58:53] [INFO] Updated Diamond data for SKU: dawn paratha plain paratha 5 pcs
+[2025-07-02 16:58:53] [INFO] Updated Diamond data for SKU: Dawn Whole wheat paratha 5 pcs
+[2025-07-02 16:58:53] [INFO] Updated Diamond data for SKU: Knorr Noodles
+[2025-07-02 16:58:53] [INFO] Updated Diamond data for SKU: Tapal Danedar 900gm
+[2025-07-02 16:58:53] [INFO] Updated Diamond data for SKU: Sugar 1kg
+[2025-07-02 16:58:53] [INFO] ✅ Saved 5 Diamond products to MySQL!
+[2025-07-02 16:58:53] [INFO] Saving Diamond data to CSV: diamond.csv
+[2025-07-02 16:58:53] [INFO] ✅ Saved 5 Diamond products to CSV!
+[2025-07-02 17:09:11] [INFO] Starting to process CSV file for Diamond...
+[2025-07-02 17:09:11] [INFO] Processing SKU: dawn paratha plain paratha 5 pcs for Diamond
+[2025-07-02 17:09:11] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/dawn-paratha-5pcs-plain.html
+[2025-07-02 17:09:12] [DEBUG] Testing element with text: 255
+[2025-07-02 17:09:12] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 255
+[2025-07-02 17:09:12] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 17:09:12] [INFO] ✅ Found price: 255.00
+[2025-07-02 17:09:12] [INFO] ✅ Diamond - dawn paratha plain paratha 5 pcs: 255.00
+[2025-07-02 17:09:12] [INFO] Processing SKU: Dawn Whole wheat paratha 5 pcs for Diamond
+[2025-07-02 17:09:12] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/dawn-paratha-whole-wheat-5pcs-400g.html
+[2025-07-02 17:09:12] [DEBUG] Testing element with text: 289
+[2025-07-02 17:09:12] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 289
+[2025-07-02 17:09:12] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 17:09:12] [INFO] ✅ Found price: 289.00
+[2025-07-02 17:09:12] [INFO] ✅ Diamond - Dawn Whole wheat paratha 5 pcs: 289.00
+[2025-07-02 17:09:17] [INFO] Processing SKU: Knorr Noodles for Diamond
+[2025-07-02 17:09:17] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/knorr-noodles-chatt-patta-4s-family-pack.html
+[2025-07-02 17:09:17] [DEBUG] Testing element with text: 200
+[2025-07-02 17:09:17] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 200
+[2025-07-02 17:09:17] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 17:09:17] [INFO] ✅ Found price: 200.00
+[2025-07-02 17:09:17] [INFO] ✅ Diamond - Knorr Noodles: 200.00
+[2025-07-02 17:09:22] [INFO] Processing SKU: Tapal Danedar 900gm for Diamond
+[2025-07-02 17:09:22] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/tapal-danedar-tea-900gm.html
+[2025-07-02 17:09:22] [DEBUG] Testing element with text: 1680
+[2025-07-02 17:09:22] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 1680
+[2025-07-02 17:09:22] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 17:09:22] [INFO] ✅ Found price: 1680.00
+[2025-07-02 17:09:22] [INFO] ✅ Diamond - Tapal Danedar 900gm: 1680.00
+[2025-07-02 17:09:27] [INFO] Processing SKU: Sugar 1kg for Diamond
+[2025-07-02 17:09:27] [INFO] Scraping price from: https://www.dsmonline.pk/clifton/sugar-1kg.html
+[2025-07-02 17:09:28] [DEBUG] Testing element with text: 180
+[2025-07-02 17:09:28] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 180
+[2025-07-02 17:09:28] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 17:09:28] [INFO] ✅ Found price: 180.00
+[2025-07-02 17:09:28] [INFO] ✅ Diamond - Sugar 1kg: 180.00
+[2025-07-02 17:09:28] [INFO] ✅ Completed processing Diamond data!
+[2025-07-02 17:09:28] [INFO] Total products processed: 5
+[2025-07-02 17:09:28] [INFO] Creating MySQL table...
+[2025-07-02 17:09:28] [INFO] ✅ MySQL table created successfully!
+[2025-07-02 17:09:28] [INFO] Saving Diamond data to MySQL...
+[2025-07-02 17:09:28] [INFO] Inserted new row for SKU: dawn paratha plain paratha 5 pcs
+[2025-07-02 17:09:28] [INFO] Inserted new row for SKU: Dawn Whole wheat paratha 5 pcs
+[2025-07-02 17:09:28] [INFO] Inserted new row for SKU: Knorr Noodles
+[2025-07-02 17:09:28] [INFO] Inserted new row for SKU: Tapal Danedar 900gm
+[2025-07-02 17:09:28] [INFO] Inserted new row for SKU: Sugar 1kg
+[2025-07-02 17:09:28] [INFO] ✅ Saved 5 Diamond products to MySQL!
+[2025-07-02 17:09:28] [INFO] Saving Diamond data to CSV: diamond.csv
+[2025-07-02 17:09:28] [INFO] ✅ Saved 5 Diamond products to CSV!

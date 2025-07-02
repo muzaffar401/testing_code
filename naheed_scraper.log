@@ -1,0 +1,171 @@
+[2025-07-02 17:16:56] [INFO] Starting to process CSV file for Naheed...
+[2025-07-02 17:16:56] [INFO] Processing SKU: dawn paratha plain paratha 5 pcs for Naheed
+[2025-07-02 17:16:56] [INFO] Scraping price from Naheed: https://www.naheed.pk/dawn-paratha-5-pieces
+[2025-07-02 17:16:58] [DEBUG] Fallback: searching entire page text for prices
+[2025-07-02 17:16:58] [DEBUG] Extracted price: 6 from pattern: /([\d,]+(?:\.\d{2})?)/
+[2025-07-02 17:16:58] [INFO] Found price for Naheed: 6
+[2025-07-02 17:16:58] [INFO] ✅ Naheed - dawn paratha plain paratha 5 pcs: 6
+[2025-07-02 17:16:58] [INFO] Processing SKU: Dawn Whole wheat paratha 5 pcs for Naheed
+[2025-07-02 17:16:58] [INFO] Scraping price from Naheed: https://www.naheed.pk/dawn-whole-wheat-paratha-5-pieces
+[2025-07-02 17:16:59] [DEBUG] Fallback: searching entire page text for prices
+[2025-07-02 17:16:59] [DEBUG] Extracted price: 8 from pattern: /([\d,]+(?:\.\d{2})?)/
+[2025-07-02 17:16:59] [INFO] Found price for Naheed: 8
+[2025-07-02 17:16:59] [INFO] ✅ Naheed - Dawn Whole wheat paratha 5 pcs: 8
+[2025-07-02 17:17:04] [INFO] Processing SKU: Knorr Noodles for Naheed
+[2025-07-02 17:17:04] [INFO] Scraping price from Naheed: https://www.naheed.pk/knorr-noodles-chatt-patta-family-pack-4-pack-inside
+[2025-07-02 17:17:04] [DEBUG] Fallback: searching entire page text for prices
+[2025-07-02 17:17:04] [DEBUG] Extracted price: 6 from pattern: /([\d,]+(?:\.\d{2})?)/
+[2025-07-02 17:17:04] [INFO] Found price for Naheed: 6
+[2025-07-02 17:17:04] [INFO] ✅ Naheed - Knorr Noodles: 6
+[2025-07-02 17:17:09] [INFO] Processing SKU: Tapal Danedar 900gm for Naheed
+[2025-07-02 17:17:09] [INFO] Scraping price from Naheed: https://www.naheed.pk/tapal-danedar-tea-900g
+[2025-07-02 17:17:10] [DEBUG] Fallback: searching entire page text for prices
+[2025-07-02 17:17:10] [DEBUG] Extracted price: 6 from pattern: /([\d,]+(?:\.\d{2})?)/
+[2025-07-02 17:17:10] [INFO] Found price for Naheed: 6
+[2025-07-02 17:17:10] [INFO] ✅ Naheed - Tapal Danedar 900gm: 6
+[2025-07-02 17:17:15] [INFO] Processing SKU: Sugar 1kg for Naheed
+[2025-07-02 17:17:15] [INFO] Scraping price from Naheed: https://www.naheed.pk/naheed-sugar-danedar-special-1-kg
+[2025-07-02 17:17:15] [DEBUG] Fallback: searching entire page text for prices
+[2025-07-02 17:17:15] [DEBUG] Extracted price: 6 from pattern: /([\d,]+(?:\.\d{2})?)/
+[2025-07-02 17:17:15] [INFO] Found price for Naheed: 6
+[2025-07-02 17:17:15] [INFO] ✅ Naheed - Sugar 1kg: 6
+[2025-07-02 17:17:15] [INFO] ✅ Completed processing Naheed data!
+[2025-07-02 17:17:15] [INFO] Total products processed: 5
+[2025-07-02 17:17:15] [INFO] Creating MySQL table...
+[2025-07-02 17:17:15] [INFO] ✅ MySQL table created successfully!
+[2025-07-02 17:17:15] [INFO] Saving Naheed data to MySQL...
+[2025-07-02 17:17:15] [INFO] Updated Naheed data for SKU: dawn paratha plain paratha 5 pcs
+[2025-07-02 17:17:15] [INFO] Updated Naheed data for SKU: Dawn Whole wheat paratha 5 pcs
+[2025-07-02 17:17:15] [INFO] Updated Naheed data for SKU: Knorr Noodles
+[2025-07-02 17:17:15] [INFO] Updated Naheed data for SKU: Tapal Danedar 900gm
+[2025-07-02 17:17:15] [INFO] Updated Naheed data for SKU: Sugar 1kg
+[2025-07-02 17:17:15] [INFO] ✅ Saved 5 Naheed products to MySQL!
+[2025-07-02 17:17:15] [INFO] Saving Naheed data to CSV: naheed.csv
+[2025-07-02 17:17:15] [INFO] ✅ Saved 5 Naheed products to CSV!
+[2025-07-02 17:26:12] [INFO] Starting to process CSV file for Naheed...
+[2025-07-02 17:26:12] [INFO] Processing SKU: dawn paratha plain paratha 5 pcs for Naheed
+[2025-07-02 17:26:12] [INFO] Scraping price from Naheed: https://www.naheed.pk/dawn-paratha-5-pieces
+[2025-07-02 17:26:13] [DEBUG] Fallback: searching entire page text for prices
+[2025-07-02 17:26:13] [WARNING] No valid price found for Naheed: https://www.naheed.pk/dawn-paratha-5-pieces
+[2025-07-02 17:26:13] [WARNING] ❌ Naheed - dawn paratha plain paratha 5 pcs: No price found (set to None)
+[2025-07-02 17:26:13] [INFO] Processing SKU: Dawn Whole wheat paratha 5 pcs for Naheed
+[2025-07-02 17:26:13] [INFO] Scraping price from Naheed: https://www.naheed.pk/dawn-whole-wheat-paratha-5-pieces
+[2025-07-02 17:26:13] [DEBUG] Fallback: searching entire page text for prices
+[2025-07-02 17:26:13] [WARNING] No valid price found for Naheed: https://www.naheed.pk/dawn-whole-wheat-paratha-5-pieces
+[2025-07-02 17:26:13] [WARNING] ❌ Naheed - Dawn Whole wheat paratha 5 pcs: No price found (set to None)
+[2025-07-02 17:26:15] [INFO] Processing SKU: Knorr Noodles for Naheed
+[2025-07-02 17:26:15] [INFO] Scraping price from Naheed: https://www.naheed.pk/knorr-noodles-chatt-patta-family-pack-4-pack-inside
+[2025-07-02 17:26:15] [DEBUG] Fallback: searching entire page text for prices
+[2025-07-02 17:26:15] [WARNING] No valid price found for Naheed: https://www.naheed.pk/knorr-noodles-chatt-patta-family-pack-4-pack-inside
+[2025-07-02 17:26:15] [WARNING] ❌ Naheed - Knorr Noodles: No price found (set to None)
+[2025-07-02 17:26:17] [INFO] Processing SKU: Tapal Danedar 900gm for Naheed
+[2025-07-02 17:26:17] [INFO] Scraping price from Naheed: https://www.naheed.pk/tapal-danedar-tea-900g
+[2025-07-02 17:26:18] [DEBUG] Fallback: searching entire page text for prices
+[2025-07-02 17:26:18] [WARNING] No valid price found for Naheed: https://www.naheed.pk/tapal-danedar-tea-900g
+[2025-07-02 17:26:18] [WARNING] ❌ Naheed - Tapal Danedar 900gm: No price found (set to None)
+[2025-07-02 17:26:20] [INFO] Processing SKU: Sugar 1kg for Naheed
+[2025-07-02 17:26:20] [INFO] Scraping price from Naheed: https://www.naheed.pk/naheed-sugar-danedar-special-1-kg
+[2025-07-02 17:26:20] [DEBUG] Fallback: searching entire page text for prices
+[2025-07-02 17:26:20] [WARNING] No valid price found for Naheed: https://www.naheed.pk/naheed-sugar-danedar-special-1-kg
+[2025-07-02 17:26:20] [WARNING] ❌ Naheed - Sugar 1kg: No price found (set to None)
+[2025-07-02 17:26:20] [INFO] ✅ Completed processing Naheed data!
+[2025-07-02 17:26:20] [INFO] Total products processed: 5
+[2025-07-02 17:26:20] [INFO] Creating MySQL table...
+[2025-07-02 17:26:20] [INFO] ✅ MySQL table created successfully!
+[2025-07-02 17:26:20] [INFO] Saving Naheed data to MySQL...
+[2025-07-02 17:26:20] [INFO] Updated Naheed data for SKU: dawn paratha plain paratha 5 pcs
+[2025-07-02 17:26:20] [INFO] Updated Naheed data for SKU: Dawn Whole wheat paratha 5 pcs
+[2025-07-02 17:26:20] [INFO] Updated Naheed data for SKU: Knorr Noodles
+[2025-07-02 17:26:20] [INFO] Updated Naheed data for SKU: Tapal Danedar 900gm
+[2025-07-02 17:26:20] [INFO] Updated Naheed data for SKU: Sugar 1kg
+[2025-07-02 17:26:20] [INFO] ✅ Saved 5 Naheed products to MySQL!
+[2025-07-02 17:26:20] [INFO] Saving Naheed data to CSV: naheed.csv
+[2025-07-02 17:26:20] [INFO] ✅ Saved 5 Naheed products to CSV!
+[2025-07-02 17:36:34] [INFO] Starting to process CSV file for Naheed...
+[2025-07-02 17:36:34] [INFO] Processing SKU: dawn paratha plain paratha 5 pcs for Naheed
+[2025-07-02 17:36:34] [INFO] Scraping price from: https://www.naheed.pk/dawn-paratha-5-pieces
+[2025-07-02 17:36:36] [DEBUG] Fallback: searching entire page text for prices
+[2025-07-02 17:36:36] [WARNING] No valid price found
+[2025-07-02 17:36:36] [WARNING] ❌ Naheed - dawn paratha plain paratha 5 pcs: No price found (set to None)
+[2025-07-02 17:36:36] [INFO] Processing SKU: Dawn Whole wheat paratha 5 pcs for Naheed
+[2025-07-02 17:36:36] [INFO] Scraping price from: https://www.naheed.pk/dawn-whole-wheat-paratha-5-pieces
+[2025-07-02 17:36:36] [DEBUG] Fallback: searching entire page text for prices
+[2025-07-02 17:36:36] [WARNING] No valid price found
+[2025-07-02 17:36:36] [WARNING] ❌ Naheed - Dawn Whole wheat paratha 5 pcs: No price found (set to None)
+[2025-07-02 17:36:38] [INFO] Processing SKU: Knorr Noodles for Naheed
+[2025-07-02 17:36:38] [INFO] Scraping price from: https://www.naheed.pk/knorr-noodles-chatt-patta-family-pack-4-pack-inside
+[2025-07-02 17:36:38] [DEBUG] Fallback: searching entire page text for prices
+[2025-07-02 17:36:38] [WARNING] No valid price found
+[2025-07-02 17:36:38] [WARNING] ❌ Naheed - Knorr Noodles: No price found (set to None)
+[2025-07-02 17:36:40] [INFO] Processing SKU: Tapal Danedar 900gm for Naheed
+[2025-07-02 17:36:40] [INFO] Scraping price from: https://www.naheed.pk/tapal-danedar-tea-900g
+[2025-07-02 17:36:41] [DEBUG] Fallback: searching entire page text for prices
+[2025-07-02 17:36:41] [WARNING] No valid price found
+[2025-07-02 17:36:41] [WARNING] ❌ Naheed - Tapal Danedar 900gm: No price found (set to None)
+[2025-07-02 17:36:43] [INFO] Processing SKU: Sugar 1kg for Naheed
+[2025-07-02 17:36:43] [INFO] Scraping price from: https://www.naheed.pk/naheed-sugar-danedar-special-1-kg
+[2025-07-02 17:36:43] [DEBUG] Fallback: searching entire page text for prices
+[2025-07-02 17:36:43] [WARNING] No valid price found
+[2025-07-02 17:36:43] [WARNING] ❌ Naheed - Sugar 1kg: No price found (set to None)
+[2025-07-02 17:36:43] [INFO] ✅ Completed processing Naheed data!
+[2025-07-02 17:36:43] [INFO] Total products processed: 5
+[2025-07-02 17:36:43] [INFO] Creating MySQL table...
+[2025-07-02 17:36:43] [INFO] ✅ MySQL table created successfully!
+[2025-07-02 17:36:43] [INFO] Saving Naheed data to MySQL...
+[2025-07-02 17:36:43] [INFO] Updated Naheed data for SKU: dawn paratha plain paratha 5 pcs
+[2025-07-02 17:36:43] [INFO] Updated Naheed data for SKU: Dawn Whole wheat paratha 5 pcs
+[2025-07-02 17:36:43] [INFO] Updated Naheed data for SKU: Knorr Noodles
+[2025-07-02 17:36:43] [INFO] Updated Naheed data for SKU: Tapal Danedar 900gm
+[2025-07-02 17:36:43] [INFO] Updated Naheed data for SKU: Sugar 1kg
+[2025-07-02 17:36:43] [INFO] ✅ Saved 5 Naheed products to MySQL!
+[2025-07-02 17:36:43] [INFO] Saving Naheed data to CSV: naheed.csv
+[2025-07-02 17:36:43] [INFO] ✅ Saved 5 Naheed products to CSV!
+[2025-07-02 17:43:13] [INFO] Starting to process CSV file for Naheed...
+[2025-07-02 17:43:13] [INFO] Processing SKU: dawn paratha plain paratha 5 pcs for Naheed
+[2025-07-02 17:43:13] [INFO] Scraping price from: https://www.naheed.pk/dawn-paratha-5-pieces
+[2025-07-02 17:43:15] [DEBUG] Testing element with text: 260
+[2025-07-02 17:43:15] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 260
+[2025-07-02 17:43:15] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 17:43:15] [INFO] ✅ Found price: 260.00
+[2025-07-02 17:43:15] [INFO] ✅ Naheed - dawn paratha plain paratha 5 pcs: 260.00
+[2025-07-02 17:43:15] [INFO] Processing SKU: Dawn Whole wheat paratha 5 pcs for Naheed
+[2025-07-02 17:43:15] [INFO] Scraping price from: https://www.naheed.pk/dawn-whole-wheat-paratha-5-pieces
+[2025-07-02 17:43:16] [DEBUG] Testing element with text: 265
+[2025-07-02 17:43:16] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 265
+[2025-07-02 17:43:16] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 17:43:16] [INFO] ✅ Found price: 265.00
+[2025-07-02 17:43:16] [INFO] ✅ Naheed - Dawn Whole wheat paratha 5 pcs: 265.00
+[2025-07-02 17:43:21] [INFO] Processing SKU: Knorr Noodles for Naheed
+[2025-07-02 17:43:21] [INFO] Scraping price from: https://www.naheed.pk/knorr-noodles-chatt-patta-family-pack-4-pack-inside
+[2025-07-02 17:43:21] [DEBUG] Testing element with text: 199
+[2025-07-02 17:43:21] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 199
+[2025-07-02 17:43:21] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 17:43:21] [INFO] ✅ Found price: 199.00
+[2025-07-02 17:43:21] [INFO] ✅ Naheed - Knorr Noodles: 199.00
+[2025-07-02 17:43:26] [INFO] Processing SKU: Tapal Danedar 900gm for Naheed
+[2025-07-02 17:43:26] [INFO] Scraping price from: https://www.naheed.pk/tapal-danedar-tea-900g
+[2025-07-02 17:43:26] [DEBUG] Testing element with text: 1800
+[2025-07-02 17:43:26] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 1800
+[2025-07-02 17:43:26] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 17:43:26] [INFO] ✅ Found price: 1800.00
+[2025-07-02 17:43:26] [INFO] ✅ Naheed - Tapal Danedar 900gm: 1800.00
+[2025-07-02 17:43:31] [INFO] Processing SKU: Sugar 1kg for Naheed
+[2025-07-02 17:43:31] [INFO] Scraping price from: https://www.naheed.pk/naheed-sugar-danedar-special-1-kg
+[2025-07-02 17:43:31] [DEBUG] Testing element with text: 200
+[2025-07-02 17:43:31] [DEBUG] Matched price pattern: /(?<!\d)(\d{3,6}(?:\.\d{2})?)(?!\d)/ - Found: 200
+[2025-07-02 17:43:31] [DEBUG] Found valid price using selector: //meta[@property="product:price:amount"]/@content
+[2025-07-02 17:43:31] [INFO] ✅ Found price: 200.00
+[2025-07-02 17:43:31] [INFO] ✅ Naheed - Sugar 1kg: 200.00
+[2025-07-02 17:43:31] [INFO] ✅ Completed processing Naheed data!
+[2025-07-02 17:43:31] [INFO] Total products processed: 5
+[2025-07-02 17:43:31] [INFO] Creating MySQL table...
+[2025-07-02 17:43:31] [INFO] ✅ MySQL table created successfully!
+[2025-07-02 17:43:31] [INFO] Saving Naheed data to MySQL...
+[2025-07-02 17:43:31] [INFO] Updated Naheed data for SKU: dawn paratha plain paratha 5 pcs
+[2025-07-02 17:43:31] [INFO] Updated Naheed data for SKU: Dawn Whole wheat paratha 5 pcs
+[2025-07-02 17:43:31] [INFO] Updated Naheed data for SKU: Knorr Noodles
+[2025-07-02 17:43:31] [INFO] Updated Naheed data for SKU: Tapal Danedar 900gm
+[2025-07-02 17:43:31] [INFO] Updated Naheed data for SKU: Sugar 1kg
+[2025-07-02 17:43:31] [INFO] ✅ Saved 5 Naheed products to MySQL!
+[2025-07-02 17:43:31] [INFO] Saving Naheed data to CSV: naheed.csv
+[2025-07-02 17:43:31] [INFO] ✅ Saved 5 Naheed products to CSV!
